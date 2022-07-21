@@ -6,4 +6,46 @@
   box-sizing: border-box; }
 
 body {
+  background-color: #001119;
   font-family: 'Roboto'; }
+
+#wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 300px;
+  align-items: center; }
+  #wrapper .product {
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    color: white; }
+  #wrapper #algo-expert {
+    width: 75%;
+    height: 50px;
+    background-color: #446dc5;
+    order: 3; }
+  #wrapper #systems-expert {
+    height: 50px;
+    width: 50%;
+    order: 1;
+    background-color: #940000; }
+  #wrapper #ml-expert {
+    width: 30%;
+    height: 75px;
+    background-color: orange;
+    order: 2;
+    margin-left: auto; }
+  #wrapper #frontend-expert {
+    order: 4;
+    height: 50px;
+    align-self: flex-end;
+    background-color: #52b795;
+    width: 40%; }
+  #wrapper #programming-expert {
+    background-color: pink;
+    height: 75px;
+    width: 58%;
+    order: 5;
+    align-self: flex-end;
+    margin-left: auto; }
